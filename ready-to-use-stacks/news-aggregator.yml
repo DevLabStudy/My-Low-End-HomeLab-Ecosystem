@@ -1,14 +1,24 @@
-version: "3"
+version: "3.6"
+
+# FreshRSS: A self-hostable RSS feed aggregator.
+# Optimized for Linuxserver.io image standards.
+
 services:
   freshrss:
     image: lscr.io/linuxserver/freshrss:latest
     container_name: freshrss
+    restart: unless-stopped
+    ports:
+      - "8281:80"
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Warsaw
-    ports:
-      - 8281:80
     volumes:
       - ./freshrss_data:/config
-    restart: unless-stopped
+    networks:
+      - mojasieć
+
+networks:
+  mojasieć:
+    external: true
