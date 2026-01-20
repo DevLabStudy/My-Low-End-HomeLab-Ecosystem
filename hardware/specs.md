@@ -11,3 +11,4 @@ Technical Specifications:
 
 Why this hardware?
 It's cheap, whisper-quiet, and has incredible Linux support. It’s the perfect starting point for any self-hosting enthusiast.
+Using a single SSD ensures that all my 15+ services start instantly and logs are written without any mechanical delay. It's the ultimate lean setup.
