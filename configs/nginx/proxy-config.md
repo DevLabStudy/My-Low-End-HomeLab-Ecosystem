@@ -1,4 +1,7 @@
 Nginx Proxy Manager Configuration
+
+---
+
 I use Nginx Proxy Manager (NPM) to create "home-made domains" for my services. This allows me to access them via friendly names instead of IP addresses and ports.
 
 Key Features:
