@@ -1,0 +1,14 @@
+version: "3"
+
+# EarnApp: Turn your unused internet bandwidth into passive income.
+# This container version is easier to manage and backup.
+
+services:
+  earnapp:
+    image: fazalfarhan01/earnapp:latest
+    container_name: earnapp
+    restart: always
+    volumes:
+      - ./earnapp_data:/etc/earnapp
+    environment:
+      - EARNAPP_UUID=sdk-node-YOUR_UUID_HERE # Tutaj użytkownik wpisze swoje ID urządzenia
