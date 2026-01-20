@@ -23,6 +23,8 @@ Support my work
 
 If you find these configs useful, consider supporting my RAM upgrade fund: https://buymeacoffee.com/TobiK0
 
+---
+
 Project Navigation
 Explore the different parts of this ecosystem:
 * [🛠️ Docker Stack](docker-compose.yml) - The core services.
