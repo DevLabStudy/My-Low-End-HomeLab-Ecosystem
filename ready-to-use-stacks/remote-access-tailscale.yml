@@ -1,0 +1,22 @@
+version: "3.6"
+
+# Tailscale: Zero-config VPN. 
+# Access your server from anywhere in the world securely.
+# Note: Uses 'network_mode: host' for seamless local network integration.
+
+services:
+  tailscale:
+    image: tailscale/tailscale:latest
+    container_name: tailscale
+    hostname: your-server-name      # Tutaj użytkownik wpisuje swoją nazwę (np. HomeLab)
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    environment:
+      - TS_AUTHKEY=tskey-auth-YOUR_KEY_HERE # Zastąp swoim kluczem z tailscale.com
+      - TS_STATE_DIR=/var/lib/tailscale
+    volumes:
+      - ./tailscale_data:/var/lib/tailscale
+      - /dev/net/tun:/dev/net/tun
+    restart: unless-stopped
