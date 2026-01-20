@@ -1,4 +1,4 @@
-Nginx Proxy Manager Configuration
+#**Nginx Proxy Manager Configuration**
 
 ---
 
