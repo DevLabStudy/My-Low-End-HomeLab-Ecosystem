@@ -22,3 +22,11 @@ Documentation and configurations for my high-efficiency HomeLab running on a ret
 Support my work 
 
 If you find these configs useful, consider supporting my RAM upgrade fund: https://buymeacoffee.com/TobiK0
+
+Project Navigation
+Explore the different parts of this ecosystem:
+* [🛠️ Docker Stack](docker-compose.yml) - The core services.
+* [⚙️ Configurations](configs/) - Detailed app settings (Pi-hole, Nginx).
+* [🚀 Optimization Guide](optimization/) - How I run 15+ services on 8GB RAM.
+* [📱 Mobile Workflow](guides/) - Managing everything via phone/tablet.
+* [🖥️ Hardware Specs](hardware/) - Details of the HP Compaq 8300 setup.
