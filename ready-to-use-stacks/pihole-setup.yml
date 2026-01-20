@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  pihole-main:
+    container_name: pihole1
+    image: pihole/pihole:latest
+    restart: unless-stopped
+    cap_add:
+      - NET_ADMIN # Required for DHCP functionality
+    ports:
+      - "53:53/tcp"
+      - "53:53/udp"
+      - "67:67/udp"    # DHCP support
+      - "8080:80/tcp"  # Admin Panel accessible at IP:8080
+    environment:
+      TZ: 'Europe/Warsaw'
+      WEBPASSWORD: 'YOUR_SECURE_PASSWORD' # Set your own password here
+      PIHOLE_DNS_: '1.1.1.1;8.8.8.8'      # Default DNS (Change to your Cloudflared/Unbound IP if needed)
+    volumes:
+      - './pihole_config/etc-pihole:/etc/pihole'
+      - './pihole_config/etc-dnsmasq.d:/etc/dnsmasq.d'
