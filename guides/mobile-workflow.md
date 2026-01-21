@@ -1,10 +1,10 @@
-# 📱 100% Mobile-First Administration Guide
+#  100% Mobile-First Administration Guide
 
 This is the most requested topic from the community. My entire HomeLab ecosystem is managed exclusively via smartphone (iOS/Android). No local monitor or keyboard was used after the initial OS install.
 
 ---
 
-### 🛠️ My Mobile Management Toolkit
+###  My Mobile Management Toolkit
 
 #### 1. Termius (SSH Client)
 * **Purpose:** Primary terminal for remote access.
@@ -22,7 +22,7 @@ This is the most requested topic from the community. My entire HomeLab ecosystem
 
 ---
 
-### 🚀 Setup Workflow (The "One-Liner" Approach)
+###  Setup Workflow (The "One-Liner" Approach)
 
 To achieve this level of mobility, I use this optimized initialization script to prepare any fresh Linux install for mobile management:
 
