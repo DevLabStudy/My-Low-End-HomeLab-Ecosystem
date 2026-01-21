@@ -6,9 +6,7 @@
 My Low-End HomeLab Ecosystem 
 Documentation and configurations for my high-efficiency HomeLab running on a retired HP Compaq 8300 SFF.
 
-<p align="center">
-  <img src="![IMG_20260121_194436](https://github.com/user-attachments/assets/3b8da885-6173-491a-a40c-a23be35128fb)" width="600" alt="HomeLab Dashboard">
-</p>
+![IMG_20260121_194436](https://github.com/user-attachments/assets/3b8da885-6173-491a-a40c-a23be35128fb)
 
  Hardware Spec
 • CPU: Intel Core i5-3470 @ 3.20GHz
