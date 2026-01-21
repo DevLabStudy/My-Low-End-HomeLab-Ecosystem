@@ -1,14 +1,14 @@
-#  100% Mobile-First Administration Guide
+# 📱 100% Mobile-First Administration Guide
 
 This is the most requested topic from the community. My entire HomeLab ecosystem is managed exclusively via smartphone (iOS/Android). No local monitor or keyboard was used after the initial OS install.
 
 ---
 
-###  My Mobile Management Toolkit
+### 🛠️ My Mobile Management Toolkit
 
 #### 1. Termius (SSH Client)
 * **Purpose:** Primary terminal for remote access.
-* **Key Feature:** I use "Snippets" to run frequent Docker commands with a single tap, eliminating the need for manual typing on a mobile keyboard.
+* **Key Feature:** I use **Snippets** to run frequent Docker commands with a single tap, eliminating the need for manual typing on a mobile keyboard.
 * **Security:** Connected via SSH keys for maximum protection.
 
 #### 2. Portainer (Web GUI)
@@ -22,7 +22,7 @@ This is the most requested topic from the community. My entire HomeLab ecosystem
 
 ---
 
-###  Setup Workflow (The "One-Liner" Approach)
+### 🚀 Setup Workflow (The "One-Liner" Approach)
 
 To achieve this level of mobility, I use this optimized initialization script to prepare any fresh Linux install for mobile management:
 
@@ -30,4 +30,4 @@ To achieve this level of mobility, I use this optimized initialization script to
 # Update system, install SSH, and deploy Docker Engine at once
 sudo apt update && sudo apt upgrade -y && \
 sudo apt install openssh-server curl git -y && \
-curl -fsSL [https://get.docker.com](https://get.docker.com) -o get-docker.sh && sudo sh get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
