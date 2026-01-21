@@ -1,10 +1,14 @@
 ![Stars](https://img.shields.io/github/stars/TobiMessi/My-Low-End-HomeLab-Ecosystem?style=for-the-badge&color=ffd700)
 ![License](https://img.shields.io/github/license/TobiMessi/My-Low-End-HomeLab-Ecosystem?style=for-the-badge&color=007bff)
 ![Repo Size](https://img.shields.io/github/repo-size/TobiMessi/My-Low-End-HomeLab-Ecosystem?style=for-the-badge&color=28a745)
-![my-small-homelab-v0-oj211fq6djeg1](https://github.com/user-attachments/assets/7c5f6e8b-cdfe-43e0-a5b9-ff4f000c0127)
+
 
 My Low-End HomeLab Ecosystem 
 Documentation and configurations for my high-efficiency HomeLab running on a retired HP Compaq 8300 SFF.
+
+<p align="center">
+  <img src="![IMG_20260121_194436](https://github.com/user-attachments/assets/3b8da885-6173-491a-a40c-a23be35128fb)" width="600" alt="HomeLab Dashboard">
+</p>
 
  Hardware Spec
 • CPU: Intel Core i5-3470 @ 3.20GHz
