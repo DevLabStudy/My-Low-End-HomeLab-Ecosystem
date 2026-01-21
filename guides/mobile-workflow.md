@@ -1,12 +1,33 @@
-100% Mobile-First Administration
+# 📱 100% Mobile-First Administration Guide
 
-This is what people ask about most on Reddit. I don't use a local monitor or keyboard. Here is my mobile toolkit:
+This is the most requested topic from the community. My entire HomeLab ecosystem is managed exclusively via smartphone (iOS/Android). No local monitor or keyboard was used after the initial OS install.
 
-1. Termius (SSH)
-My primary terminal for iPhone/Android. It allows me to connect to my server from anywhere in the world. I use "Snippets" to run frequent commands without typing them manually.
+---
 
-2. Portainer (Web GUI)
-Instead of complex Docker commands, I use Portainer's web interface. It works perfectly in mobile browsers, allowing me to restart containers and check logs on the go.
+### 🛠️ My Mobile Management Toolkit
 
-3. Tailscale (Secure Remote Access)
-I use Tailscale as a Zero-Config VPN. It allows me to access my home network securely from school or public Wi-Fi without opening any dangerous ports on my router.
+#### 1. Termius (SSH Client)
+* **Purpose:** Primary terminal for remote access.
+* **Key Feature:** I use "Snippets" to run frequent Docker commands with a single tap, eliminating the need for manual typing on a mobile keyboard.
+* **Security:** Connected via SSH keys for maximum protection.
+
+#### 2. Portainer (Web GUI)
+* **Purpose:** Visual management of Docker containers.
+* **Why Mobile?** Instead of complex CLI commands, Portainer's responsive web interface allows me to restart services, check logs, and deploy new stacks through a mobile browser.
+* **Efficiency:** Perfect for quick health checks while on the go.
+
+#### 3. Tailscale (Zero-Config VPN)
+* **Purpose:** Secure remote access from anywhere.
+* **Security:** It creates a private, encrypted Mesh VPN. I can access my server from school or public Wi-Fi safely without opening any ports on my home router.
+
+---
+
+### 🚀 Setup Workflow (The "One-Liner" Approach)
+
+To achieve this level of mobility, I use this optimized initialization script to prepare any fresh Linux install for mobile management:
+
+```bash
+# Update system, install SSH, and deploy Docker Engine at once
+sudo apt update && sudo apt upgrade -y && \
+sudo apt install openssh-server curl git -y && \
+curl -fsSL [https://get.docker.com](https://get.docker.com) -o get-docker.sh && sudo sh get-docker.sh
