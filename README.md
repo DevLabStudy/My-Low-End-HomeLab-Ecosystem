@@ -84,8 +84,8 @@ Or login by my links
 
 Project Navigation
 Explore the different parts of this ecosystem:
-* 📁 **[hardware/](hardware/)** - Full server specifications (i5-3470, 8GB RAM, 256GB SSD).
-* 📁 **[ready-to-use-stacks/](ready-to-use-stacks/)** - Production-ready Docker Compose files for all services.
-* 📁 **[optimization/](optimization/)** - Guides on RAM management and system tuning for budget hardware.
-* 📁 **[guides/](guides/)** - Step-by-step tutorials for remote access and mobile management.
-* 📁 **[configs/](configs/)** - Specific configuration files for Nginx and other services.
+*  **[hardware/](hardware/)** - Full server specifications (i5-3470, 8GB RAM, 256GB SSD).
+*  **[ready-to-use-stacks/](ready-to-use-stacks/)** - Production-ready Docker Compose files for all services.
+*  **[optimization/](optimization/)** - Guides on RAM management and system tuning for budget hardware.
+*  **[guides/](guides/)** - Step-by-step tutorials for remote access and mobile management.
+*  **[configs/](configs/)** - Specific configuration files for Nginx and other services.
