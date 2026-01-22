@@ -68,13 +68,13 @@ Average resource consumption measured via `docker stats` under standard operatin
 ###  Project Roadmap
 - [x] Basic Docker stack (Passive Income services)
 - [x] **Kernel Tuning:** Optimize `vm.swappiness` settings to prioritize physical RAM over Swap usage (target: 10-20 range)
+- [x] Implement Watchtower for automated container updates
 - [ ] **Network & Monitoring:** Replace Pi-hole with **AdGuard Home** and Uptime Kuma with **Gatus** (Optimization focus)
 - [ ] **Advanced Optimization:** Migrate core services to **Distroless** or **Alpine** images to further reduce RAM footprint
 - [ ] **Media Ecosystem:** Implement **Plex Media Server** for high-performance streaming
 - [ ] **The "Arr" Stack:** Full automation for media management (Sonarr, Radarr, Prowlarr)
 - [ ] **Unified Dashboard:** Centralized management via **Homepage**
 - [ ]  Replace heavy images with Alpine/Distroless versions (Goal: -500MB RAM)
-- [ ] Implement Watchtower for automated container updates
 - [ ] Benchmark system stability with the new Swap settings
 
 
