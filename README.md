@@ -73,6 +73,9 @@ Average resource consumption measured via `docker stats` under standard operatin
 - [ ] **Media Ecosystem:** Implement **Plex Media Server** for high-performance streaming
 - [ ] **The "Arr" Stack:** Full automation for media management (Sonarr, Radarr, Prowlarr)
 - [ ] **Unified Dashboard:** Centralized management via **Homepage**
+- [ ]  Replace heavy images with Alpine/Distroless versions (Goal: -500MB RAM)
+- [ ] Implement Watchtower for automated container updates
+- [ ] Benchmark system stability with the new Swap settings
 
 
 ---
