@@ -58,7 +58,7 @@ Average resource consumption measured via `docker stats` under standard operatin
 > [!NOTE]
 > The hardware was acquired for free during a corporate office upgrade. This makes the project a 100% recycled "zero-cost" build where every earned penny covers the operational expenses.
 
-> > [!WARNING]
+> [!WARNING]
 > **Disclaimer regarding "Passive Income" services (Honeygain, Trafficmonetizer, etc.):**
 > Using these applications involves sharing your residential IP address as a proxy server. This may lead to IP reputation degradation or network security risks. The author of this project is not responsible for any damages, account bans, or security incidents resulting from the use of these tools. Use them strictly at your own risk.
 
