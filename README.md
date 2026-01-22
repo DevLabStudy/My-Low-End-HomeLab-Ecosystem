@@ -43,7 +43,8 @@ Average resource consumption measured via `docker stats` under standard operatin
 | Passive Income Apps  | 1.0% - 3.0%     | 250 MB          | Low      |
 | **Total Ecosystem** | **~5.0%** | **~1.2 GB** | --       |
 
-*Note: System load remains stable during concurrent DNS queries. Background tasks are optimized to prevent resource spikes.*
+> [!Note]
+> System load remains stable during concurrent DNS queries. Background tasks are optimized to prevent resource spikes.
 
 ## Project Economics
 
