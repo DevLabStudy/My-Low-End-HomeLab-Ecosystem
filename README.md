@@ -7,9 +7,9 @@ My Low-End HomeLab Ecosystem
 Documentation and configurations for my high-efficiency HomeLab running on a retired HP Compaq 8300 SFF.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3b8da885-6173-491a-a40c-a23be35128fb" width="500" title="My HP Compaq 8300 SFF Setup">
+  <img src="https://github.com/user-attachments/assets/3b8da885-6173-491a-a40c-a23be35128fb" width="500" title="My HP Compaq Pro 6300 SFF Setup">
   <br>
-  <em>My Budget Workhorse: HP Compaq 8300 SFF</em>
+  <em>My Budget Workhorse: HP Compaq Pro 6300 SFF</em>
 </p>
 
  Hardware Spec
