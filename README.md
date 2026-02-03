@@ -15,7 +15,7 @@ Documentation and configurations for my high-efficiency HomeLab running on a ret
  Hardware Spec
 • CPU: Intel Core i5-3470 @ 3.20GHz
 
-• RAM: 8GB DDR3 
+• RAM: 16GB DDR3 
 
 • Storage: 256GB SSD
 
