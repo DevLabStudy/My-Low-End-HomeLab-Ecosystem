@@ -17,7 +17,7 @@ Documentation and configurations for my high-efficiency HomeLab running on a ret
 
 • RAM: 16GB DDR3 
 
-• Storage: 256GB SSD
+• Storage: 256GB SSD + 160GB HDD
 
 • Network: 1Gbps Fiber
 
